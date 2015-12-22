@@ -1,0 +1,12 @@
+ 
+The HMC_viz.py script generates a simple 3D animation using matplotlib illustrating a Hamiltonian Monte Carlo simulation of a particle moving through an inverted two dimensional Gaussian.  The animation features a rotating camera angle and persistent, color-coded trajectory segments for clarity.
+
+You can set the output format using the *image_format* configuration parameter at the top of the script.
+
+The code takes a few minutes to run and outputs several files:
+
+* HMC_[1,2]D_*: A series of frames illustrating how to interpolate a [1,2]D Gaussian function from a sample of function evaluations.
+* HMC_sim_*: Individual frames from teh simulation showing the final position of the particle before the next kick.
+* HMC_sim.mp4: The animation
+
+This code was developed to illustrate the talk for my thesis: http://adsabs.harvard.edu/abs/2014PhDT........11S
